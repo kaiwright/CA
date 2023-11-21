@@ -20,27 +20,32 @@ body {
 }
 
 .section p {
-  padding-block: 20%;
+  padding-bottom: 20%;
 }
 
 .hero-banner {
-  background-image: url("../imgs/Wallpaper.png");
+  background-image: url("../imgs/website-bg-transp.png");
   object-fit: fill;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
 }
 
 .div-wrapper {
-  position: relative;
-  height: 80vh;
-  width: 100%;
+  max-height: 90vh;
+  max-width: 100%;
 }
 
 .div-wrapper img {
   position: absolute;
-  height: auto;
-  width: 100%;
-  left: 0;
+  max-height: auto;
+  right: 0;
   bottom: 0;
+
+}
+
+.page {
+  background-image: url("../imgs/cord.png");
+  object-fit: fill;
+  background-size: cover;
 }
