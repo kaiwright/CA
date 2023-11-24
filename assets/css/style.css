@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(180deg, rgb(44, 44, 44), rgb(26, 26, 26));
+  background-color: #333335;
   color: whitesmoke;
 }
 
@@ -10,7 +10,7 @@ body {
 
 
 .hero-banner {
-  background-image: url("../imgs/Wallpaper.png");
+  background-image: url("../imgs/4b627956664441.59b7e328cd883.gif");
   object-fit: fill;
   background-size: cover;
   text-align: center;
@@ -23,29 +23,28 @@ body {
 .hero-banner div div h1 {
   display: table;
   margin: 0px auto 0px auto;
-  background-color: black;
   text-align: center;
   padding: 1%;
-  color: whitesmoke;
-
+  color: black;
 }
+
 .hero-banner div div h2 {
   display: table;
   margin: 0px auto 0px auto;
-  background-color: black;
   text-align: center;
   padding: 1%;
-  color: whitesmoke;
+  color: black;
   padding-bottom: 3%;
+
 }
 
 .hero-banner div div p {
   display: table;
   margin: 0px auto 0px auto;
-  background-color: black;
   text-align: center;
   width: 50%;
   padding: 3%;
+  color: black;
 
 }
 
@@ -63,6 +62,7 @@ h5,
 .btn-lg {
   margin: 3%;
   font-family: textFont;
+  background-color: black;
 }
 
 small {
