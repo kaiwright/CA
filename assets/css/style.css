@@ -7,7 +7,9 @@ body {
   position: relative;
   background-color: none;
 }
-
+.form-check {
+  float: right;
+}
 
 .hero-banner {
   background-image: url("../imgs/4b627956664441.59b7e328cd883.gif");
