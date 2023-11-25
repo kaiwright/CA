@@ -25,7 +25,8 @@ body {
   margin: 0px auto 0px auto;
   text-align: center;
   padding: 1%;
-  color: black;
+  color: rgb(132, 27, 192);
+  text-shadow: 2px 2px 8px rgb(0, 0, 0)
 }
 
 .hero-banner div div h2 {
@@ -33,7 +34,8 @@ body {
   margin: 0px auto 0px auto;
   text-align: center;
   padding: 1%;
-  color: black;
+  color: rgb(132, 27, 192);
+  text-shadow: 2px 2px 8px rgb(0, 0, 0);
   padding-bottom: 3%;
 
 }
@@ -42,16 +44,17 @@ body {
   display: table;
   margin: 0px auto 0px auto;
   text-align: center;
-  width: 50%;
+  width: 60%;
   padding: 3%;
-  color: rgb(255, 251, 0);
+  color: rgb(255, 255, 255);
 }
 
 .textbox {
   display: table;
   margin: 0px auto 0px auto;
-  background-color: rgba(79, 28, 146, 0.6);
-  width: 70%;
+  background-color: rgba(32, 32, 32, 0.6);
+  border: white;
+  width: 60%;
 }
 
 h1,
@@ -68,11 +71,30 @@ h5,
 .btn-lg {
   margin: 3%;
   font-family: textFont;
-  background-color: black;
+  background-color: rgb(132, 27, 192);
+  color: white;
+  border: white;
+}
+.btn-lg:hover {
+  background-color:rgb(185, 88, 241) ;
 }
 
 small {
   font-size: small;
+}
+
+.card-body, .card-img-top, .card-body p small {
+  background-color: rgb(73, 47, 78);
+  color:white ;
+}
+
+.card-body button {
+  background-color: rgb(132, 27, 192);
+  color: white;
+}
+
+.card-body button:hover {
+  background-color:rgb(185, 88, 241) ;
 }
 
 @font-face {
