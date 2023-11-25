@@ -84,7 +84,7 @@ small {
 }
 
 .card-body, .card-img-top, .card-body p small {
-  background-color: rgb(73, 47, 78);
+  background-color: rgb(54, 35, 58);
   color:white ;
 }
 
@@ -105,4 +105,13 @@ small {
 @font-face {
   font-family: textFont;
   src: url("../fonts/Kollektif.ttf");
+}
+
+@media only screen and (max-width: 600px) {
+  .textbox, .hero-banner div div p {
+    width: 85%;
+  }
+  .hero-banner div div h2 {
+    padding-bottom: 5%;
+  }
 }
