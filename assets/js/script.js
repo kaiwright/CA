@@ -11,13 +11,13 @@ function rainbowMode(event) {
 
 }
 
-window.onresize = window.onload = function() {
-    if ($(window).width() < 600) {
-        togglerEl.hide()
-    } else {
-        togglerEl.show()
-    }
-}
+// window.onresize = window.onload = function() {
+//     if ($(window).width() < 991) {
+//         togglerEl.hide()
+//     } else {
+//         togglerEl.show()
+//     }
+// }
 
 
 
