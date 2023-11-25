@@ -7,6 +7,7 @@ body {
   position: relative;
   background-color: none;
 }
+
 .form-check {
   float: right;
 }
@@ -71,22 +72,28 @@ h5,
 
 .btn-lg {
   margin: 3%;
+}
+
+.btn {
   font-family: textFont;
   background-color: rgb(132, 27, 192);
   color: white;
   border: white;
 }
-.btn-lg:hover {
-  background-color:rgb(185, 88, 241) ;
+
+.btn:hover {
+  background-color: rgb(185, 88, 241);
 }
 
 small {
   font-size: small;
 }
 
-.card-body, .card-img-top, .card-body p small {
+.card-body,
+.card-img-top,
+.card-body p small {
   background-color: rgb(54, 35, 58);
-  color:white ;
+  color: white;
 }
 
 .card-body button {
@@ -95,7 +102,33 @@ small {
 }
 
 .card-body button:hover {
-  background-color:rgb(185, 88, 241) ;
+  background-color: rgb(185, 88, 241);
+}
+
+.contact-box button {
+  background-color: rgb(132, 27, 192);
+  color: white;
+}
+
+.contact-box button:hover {
+  background-color: rgb(185, 88, 241);
+}
+#exampleFormControlTextarea1 {
+  max-height: 450px;
+}
+.contact-box div img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.button-container {
+  margin: 0px auto 0px auto;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  opacity: 70%;
 }
 
 @font-face {
@@ -109,11 +142,13 @@ small {
 }
 
 @media only screen and (max-width: 600px) {
-  .textbox, .hero-banner div div p {
+
+  .textbox,
+  .hero-banner div div p {
     width: 85%;
   }
+
   .hero-banner div div h2 {
     padding-bottom: 5%;
   }
 }
-

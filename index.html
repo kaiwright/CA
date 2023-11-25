@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+    <script src="https://kit.fontawesome.com/4163a3da2d.js" crossorigin="anonymous"></script>
 
     <title>Tiktok Creative Academy</title>
 </head>
@@ -50,8 +51,9 @@
             </div>
         </div>
         <div class="form-check form-switch" id="toggler">
-            <input class="form-check-input" onclick="rainbowMode()" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-            <label class="form-check-label" for="flexSwitchCheckDefault" >Toggle Rainbow
+            <input class="form-check-input" onclick="rainbowMode()" type="checkbox" role="switch"
+                id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Toggle Rainbow
                 Mode</label>
         </div>
     </nav>
@@ -205,8 +207,38 @@
 
     <section class="section p-5 fs-3" id="contact">
         <h2>Contact Us</h2>
+        <div class="contact-box row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+                    <textarea class="form-control" placeholder="Type your message here" id="exampleFormControlTextarea1"
+                        rows="3"></textarea>
+                    <button type="button" class="btn">Submit</button>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/imgs/Prsn_at_laptop.jpg" alt="Person sitting at laptop">
+            </div>
+
+
+        </div>
 
     </section>
+
+    <div class="button-container">
+        <button class="btn btn-lg"><i class="fa-brands fa-instagram"></i></button>
+        <button class="btn btn-lg"><i class="fa-brands fa-facebook"></i></button>
+        <button class="btn btn-lg"><i class="fa-brands fa-linkedin"></i></button>
+    </div>
+
+
+    <footer class="p-5">Website designed by Kai Wright 2023</footer>
+
 
 
     <!-- Bootstrap JS -->
