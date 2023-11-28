@@ -118,7 +118,7 @@ h5,
   display: flex;
   justify-content: space-evenly;
   border: none;
-  margin: 50px auto 0px auto;
+  margin: 5px auto 0px auto;
 }
 
 /* This container is needed to position the front and back side */
@@ -165,7 +165,7 @@ h5,
   text-align: center;
   width: 100%;
   height: auto;
-  margin: 50px auto 0px auto;
+  margin: 80px auto 0px auto;
 }
 
 small {
