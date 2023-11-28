@@ -82,7 +82,9 @@ h5,
 }
 
 .btn:hover {
-  background-color: rgb(255, 240, 104);
+  background-color: rgb(255, 242, 123);
+  color: black;
+  text-shadow: 2px 2px 8px rgb(228, 207, 15);
 }
 
 .accordion {
