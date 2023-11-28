@@ -27,7 +27,7 @@ body {
   margin: 0px auto 0px auto;
   text-align: center;
   padding: 1%;
-  color: rgb(132, 27, 192);
+  color: rgb(228, 207, 15);
   text-shadow: 2px 2px 8px rgb(0, 0, 0)
 }
 
@@ -36,7 +36,7 @@ body {
   margin: 0px auto 0px auto;
   text-align: center;
   padding: 1%;
-  color: rgb(132, 27, 192);
+  color: rgb(228, 207, 15);
   text-shadow: 2px 2px 8px rgb(0, 0, 0);
   padding-bottom: 3%;
 
@@ -48,14 +48,15 @@ body {
   text-align: center;
   width: 60%;
   padding: 3%;
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 .textbox {
   display: table;
   margin: 0px auto 0px auto;
-  background-color: rgba(54, 35, 58, 0.6);
+  background-color: rgba(131, 108, 168, 0.6);
   width: 60%;
+  color: black;
 }
 
 h1,
@@ -75,22 +76,22 @@ h5,
 
 .btn {
   font-family: textFont;
-  background-color: rgb(132, 27, 192);
-  color: white;
-  border: white;
+  background-color: rgb(228, 207, 15);
+  color: black;
+  border: black;
 }
 
 .btn:hover {
-  background-color: rgb(185, 88, 241);
+  background-color: rgb(255, 240, 104);
 }
 
 .accordion {
-  --bs-accordion-bg: rgb(54, 35, 58);
-  --bs-body-color: white;
-  --bs-accordion-active-bg: whitesmoke;
-  --bs-accordion-active-color:rgb(54, 35, 58);
-  --bs-accordion-btn-focus-border-color:  rgb(185, 88, 241);
-  --bs-accordion-btn-focus-box-shadow:  rgb(185, 88, 241);
+  --bs-accordion-bg:  rgb(131, 108, 168);
+  --bs-body-color: #0f0f0f;
+  --bs-accordion-active-bg: #0f0f0f;
+  --bs-accordion-active-color:rgb(131, 108, 168);
+  --bs-accordion-btn-focus-border-color:  rgb(131, 108, 168);
+  --bs-accordion-btn-focus-box-shadow:  rgb(131, 108, 168);
 }
 
 .accordion-body {
@@ -148,6 +149,7 @@ h5,
 .flip-card-back {
   color: white;
   transform: rotateY(180deg);
+  background: linear-gradient(to bottom right, rgba(201, 60, 60, 0.6), rgba(199, 143, 69, 0.6), rgba(199, 179, 69, 0.6) , rgba(69, 129, 199, 0.6),  rgba(136, 69, 199, 0.6))
 }
 .flip-card-back p {
   display: table;
@@ -164,26 +166,26 @@ small {
 .card-body,
 .card-img-top,
 .card-body p small {
-  background-color: rgb(54, 35, 58);
-  color: white;
+  background-color:  rgb(131, 108, 168);
+  color: black;
 }
 
 .card-body button {
-  background-color: rgb(132, 27, 192);
-  color: white;
+  background-color: rgb(228, 207, 15);
+  color: black;
 }
 
 .card-body button:hover {
-  background-color: rgb(185, 88, 241);
+  background-color: rgb(255, 240, 104);
 }
 
 .contact-box button {
-  background-color: rgb(132, 27, 192);
-  color: white;
+  background-color: rgb(228, 207, 15);
+  color: black;
 }
 
 .contact-box button:hover {
-  background-color: rgb(185, 88, 241);
+  background-color: rgb(255, 240, 104);
 }
 
 #exampleFormControlTextarea1 {
