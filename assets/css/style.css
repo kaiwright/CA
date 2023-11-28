@@ -64,6 +64,10 @@ h2 {
   font-family: title;
 }
 
+h3 {
+  font-family: textFont;
+}
+
 p,
 h5,
 .btn {
@@ -96,6 +100,9 @@ h5,
   --bs-accordion-btn-focus-box-shadow:  rgb(131, 108, 168);
 }
 
+.accordion-header button {
+  font-size: 1em;
+}
 .accordion-body {
   font-family: textFont;
   font-size: 0.8em;
@@ -105,7 +112,7 @@ h5,
 .flip-card {
   background-color: transparent;
   width: 500px;
-  height: 400px;
+  height: 500px;
   perspective: 1000px;
   text-align: center;
   display: flex;
@@ -151,14 +158,14 @@ h5,
 .flip-card-back {
   color: white;
   transform: rotateY(180deg);
-  background: linear-gradient(to bottom right, rgba(201, 60, 60, 0.6), rgba(199, 143, 69, 0.6), rgba(199, 179, 69, 0.6) , rgba(69, 129, 199, 0.6),  rgba(136, 69, 199, 0.6))
+  background: linear-gradient(to bottom right, rgba(201, 60, 60, 0.6), rgba(199, 143, 69, 0.6), rgba(199, 179, 69, 0.6) , rgba(69, 129, 199, 0.6),  rgba(136, 69, 199, 0.6));
 }
 .flip-card-back p {
   display: table;
-  margin: 0px auto 0px auto;
   text-align: center;
   width: 100%;
   height: auto;
+  margin: 50px auto 0px auto;
 }
 
 small {
